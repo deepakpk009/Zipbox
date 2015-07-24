@@ -1,0 +1,9 @@
+APP LOGIC:
+-----------------------------------------------------------------------------
+1. if non-zip files or folders are dropped onto the box then go for compression
+2. if zip files are dropped then go for extraction
+3. if more than one files or folders are dropped then go for compression
+4. should be able to extract all zip files supported by 7zip binding
+5. compression using basic java.util.zip package
+6. before processing check for the save file location free space;
+ if insufficient space then ask user for new folder to save
